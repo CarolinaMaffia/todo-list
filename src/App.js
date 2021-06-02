@@ -1,9 +1,13 @@
 import './App.css';
+import ShowItem from './components/ShowItem/ShowItem';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <h2>hola</h2>
+      <h2>TODO list</h2>
+      <>
+        <ShowItem />
+      </>
     </div>
   );
 }
