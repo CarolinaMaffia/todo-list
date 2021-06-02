@@ -2,7 +2,9 @@ import './Item.scss';
 
 const Item = ({ todo }) => {
     return (
-        <p>{todo}</p>
+        <div className='item-container'>
+            <p>{todo}</p>
+        </div>
     )
 };
 

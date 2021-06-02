@@ -1,0 +1,14 @@
+.show-item-container {
+    background-color: white;
+    height: 70vh;
+    width: 40%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+
+    .form-container {
+        margin-bottom: 30px;
+    }
+}
+

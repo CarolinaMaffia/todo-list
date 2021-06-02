@@ -12,12 +12,14 @@ const ShowItem = () => {
     };
 
     return (
-        <>
-        <Form addTodo={addTodo}/>
-        <div>
-            {todos.map((todo, index) => ( <Item key={index} index={index} todo={todo}  />)) }
+        <div className="show-item-container">
+            <div className="form-container"> 
+                <Form addTodo={addTodo}/>
+            </div>
+            <div>
+                {todos.map((todo, index) => ( <Item key={index} index={index} todo={todo}  />)) }
+            </div>
         </div>
-        </>
     )
 };
 
