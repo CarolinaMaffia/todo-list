@@ -7,7 +7,7 @@ function App(props) {
       <h2>TODO list 🦄</h2>
       <>
         <ShowItem />
-        <p>Made with depression by Carolina Maffia</p>
+        <p>Made with xD by Caru</p>
       </>
     </div>
   );

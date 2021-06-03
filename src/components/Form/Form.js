@@ -17,7 +17,7 @@ const Form = ({ addTodo }) => {
             <div className="input-container">
                 <input 
                     type="text"
-                    placeholder="task" 
+                    placeholder="write your task here" 
                     onChange={e => setValue(e.target.value)}
                     value={value}
                 />

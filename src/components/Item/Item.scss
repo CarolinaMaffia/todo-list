@@ -8,4 +8,10 @@
     justify-content: space-between;
     margin-bottom: 6px;
     padding: 3px 10px;
+
+    .buttons-container {
+        .btn {
+            margin-right: 20px;
+        }
+    }
 }
