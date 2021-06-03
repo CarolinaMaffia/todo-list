@@ -5,7 +5,7 @@ import './ShowItem.scss';
 
 const ShowItem = () => {
     const [todos, setTodos] = useState([
-        { text: "",
+        { text: "Hi there, write your tasks here!",
           isCompleted: false,
         },
       ]);
